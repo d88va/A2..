@@ -1,0 +1,461 @@
+/* FONTS ------------------------------------------------- */
+
+@font-face {
+  font-family: 'theglobe';
+  src: url('./webfontkit-20230416-062805/theglobepersonalusebold-2orlw-webfont.eot');
+  src: url('./webfontkit-20230416-062805/theglobepersonalusebold-2orlw-webfont.eot') format('embedded-opentype'),
+       url('./webfontkit-20230416-062805/theglobepersonalusebold-2orlw-webfont.eot') format('woff2'),
+       url('./webfontkit-20230416-062805/') format('woff'),
+       url('./webfontkit-20230416-062805/theglobepersonalusebold-2orlw-demo.eot') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+/* OVERALL ----------------------------------------------- */
+
+html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-size: 18px;
+}
+
+body   {
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        max-height: 100%;
+
+        
+}
+
+*      {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+/*  ------------------------- */
+
+
+input{
+         @font-face {
+                font-family: 'theglobe';
+                src: url('./webfontkit-20230416-062805/theglobepersonalusebold-2orlw-webfont.eot');
+                src: url('./webfontkit-20230416-062805/theglobepersonalusebold-2orlw-webfont.eot') format('embedded-opentype'),
+                     url('./webfontkit-20230416-062805/theglobepersonalusebold-2orlw-webfont.eot') format('woff2'),
+                     url('./webfontkit-20230416-062805/') format('woff'),
+                     url('./webfontkit-20230416-062805/theglobepersonalusebold-2orlw-demo.eot') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+}
+}
+#heading{
+        position: absolute;
+width: 1354px;
+height: 108px;
+left: 62px;
+top: 127px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600px;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+
+}
+
+.button{
+
+        position: absolute;
+        width: 329px;
+        height: 116px;
+        left: 510px;
+        top: 345px;
+        text-decoration: underline;
+        
+        font-family: 'theglobe';
+        font-weight: 600;
+        font-size: 96px;
+        line-height: 116px;
+       
+                colour:#FFFFFF
+                
+}
+
+.button2{
+        position: absolute;
+        width: 650px;
+        height: 116px;
+        left: 510px;
+        top: 345px;
+        
+        font-family: 'theglobe';
+        font-weight: 600;
+        font-size: 96px;
+        line-height: 116px;
+        
+        color: #000000;
+}
+
+.p1 {
+        box-sizing: border-box;
+
+position: absolute;
+width: 367px;
+height: 149px;
+left: 20px;
+top: 366px;
+
+background: #000000;
+border: 1px solid #FFFFFF;
+position: absolute;
+width: 316px;
+height: 77px;
+left: 300px;
+top: 400px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+
+color: #FFFFFF;
+      
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #f1f1f1;
+        color: black;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+      
+       .p1:hover {
+        background-color: black;
+        color: grey;
+      }
+
+
+.p2 {
+ /* Rectangle 2 */
+ box-sizing: border-box;
+
+ position: absolute;
+ width: 367px;
+ height: 149px;
+ left: 20px;
+ top: 366px;
+ 
+ background: #000000;
+ border: 1px solid #FFFFFF;
+ position: absolute;
+ width: 316px;
+ height: 77px;
+ left: 750px;
+ top: 400px;
+ 
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 64px;
+ line-height: 77px;
+ 
+ color: #FFFFFF;
+       
+         transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         background-color: #f1f1f1;
+         color: black;
+         border: none;
+         cursor: pointer;
+         border-radius: 5px;
+         text-align: center;
+       }
+       
+        .p2:hover {
+         background-color: black;
+         color: grey;
+       }
+ 
+.p3 {
+        /* Rectangle 3 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 384px;
+height: 149px;
+left: 1000px;
+top: 366px;
+
+background: #000000;
+border: 1px solid #FFFFFF;
+
+/* accept fate */
+
+
+position: absolute;
+width: 351px;
+height: 77px;
+left: 1200px;
+top: 402px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+
+color: #FFFFFF;
+
+transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ background-color: #f1f1f1;
+ color: black;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+ text-align: center;
+}
+
+.p3:hover {
+ background-color: black;
+ color: grey;
+
+}
+.p4{
+        /* Rectangle 4 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 367px;
+height: 149px;
+left: 520px;
+top: 563px;
+
+background: #000000;
+border: 1px solid #FFFFFF;
+
+
+/* Escape */
+
+
+position: absolute;
+width: 226px;
+height: 77px;
+left: 591px;
+top: 599px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+
+color: #FFFFFF;
+
+}
+#lasttext{
+        position: absolute;
+width: 800px;
+height: 108px;
+left: 254px;
+top: 300px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+
+}
+
+.p5{
+        /* Group 5 */
+
+
+position: absolute;                          
+width: 400px;
+height: 149px;
+left: 257px;
+top: 491px;
+
+
+background: #000000;
+border: 1px solid #FFFFFF;
+position: absolute;
+width: 400px;
+height: 77px;
+left: 257px;
+top: 491px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+
+}
+.p6{
+
+/* Group 6 */
+
+
+position: absolute;
+width: 400px;
+height: 600px;
+left: 864px;
+top: 491px;
+
+background: #000000;
+border: 1px solid #FFFFFF;
+position: absolute;
+width:400px;
+height:77px;
+left: 864px;
+top:491px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+
+}
+
+.p7{
+        position: absolute;                          
+width: 400px;
+height: 149px;
+left: 257px;
+top: 491px;
+
+
+background: #000000;
+border: 1px solid #FFFFFF;
+position: absolute;
+width: 500px;
+height: 77px;
+left: 257px;
+top: 491px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+
+}
+.p8{
+        position: absolute;                          
+width: 400px;
+height: 149px;
+left: 257px;
+top: 491px;
+
+
+background: #000000;
+border: 1px solid #FFFFFF;
+position: absolute;
+width: 950px;
+height: 77px;
+left: 257px;
+top: 491px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+
+}
+
+.p9{
+        position: absolute;                          
+        width: 400px;
+        height: 149px;
+        left: 257px;
+        top: 491px;
+        
+        
+        background: #000000;
+        border: 1px solid #FFFFFF;
+        position: absolute;
+        width: 400px;
+        height: 77px;
+        left: 257px;
+        top: 491px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        
+        color: #FFFFFF;
+          
+}
+#lasttext2{
+        position: absolute;
+width: 800px;
+height: 108px;
+left: 254px;
+top: 300px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+
+
+}
+.layout{
+        animation-name: layout;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+.layout{        
+        background-color: #000000;
+        background-color: #FFFFFF;
+        animation-duration: 4s;
+
+}
+@keyframes example {
+        from {background-color: white}
+        to {background-color: white;}
+      }
+      /* The element to apply the animation to */
+      div {
+        background-size: cover;
+        background-color: white;
+        animation-name: example;
+        animation-duration: 2s;
+      }
+
